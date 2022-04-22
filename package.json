@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "TAILWIND_MODE=watch vue-cli-service serve",
     "build": "TAILWIND_MODE=build vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy":"sh deploy.sh"
   },
   "dependencies": {
     "autoprefixer": "^9.8.8",
