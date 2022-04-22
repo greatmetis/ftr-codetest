@@ -1,12 +1,14 @@
 # For The Record Code Test
 
-This project is created by [Vue-CLI](https://cli.vuejs.org/) version2.6.11 and Tailwindcss version2.2.17
+This project is created by [Vue-CLI](https://cli.vuejs.org/) version2.6.11 and [Tailwindcss](https://tailwindcss.com/docs/installation) version2.2.17
 
-Please see the complie version at
+Please see the complie version at https://greatmetis.github.io/ftr-codetest/
 
 ## Project setup
 
-Before we move on, please ensure you have install node, npm and git.
+_Before we move on, please ensure you have install node, npm and git._
+
+Firstly, Clone or download the source code from https://github.com/greatmetis/ftr-codetest
 
 `npm install` : this command will install all tools that we need to develop this application
 
@@ -36,3 +38,6 @@ Please describe how you would go about implementing this new UI in your applicat
 > In terms of state of the app, they are storing in App.vue file and passing to component files with explicit props declaration. However, when the application grows bigger, Vuex, a state management, is recommended. In this way, multiple components would be much more easier to share common states.
 
 3. What did you think about this coding test - is there anything you’d suggest in order to improve it?
+   👍🏼 Things I like: In general I enjoy the process of building this application. Although they are simple and classsic tasks to create an interactive application, I don't feel bored like facing algorithm task and I felt I am doing a practical work.
+
+   💡 Improvment: However, I would not bother to limit the number under the 1000th number in Fibonacci sequence, because it would be too long for any user to type it.
